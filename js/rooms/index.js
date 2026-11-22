@@ -1,9 +1,1 @@
-import { hub } from './hub.js?v=3';
-import { kids } from './kids.js?v=3';
-import { teens } from './teens.js?v=3';
-import { mind } from './mind.js?v=3';
-import { flood } from './flood.js?v=3';
-import { adults } from './adults.js?v=3';
-import { theater } from './theater.js?v=3';
-import { expert } from './expert.js?v=3';
-export const ROOMS = { hub, kids, teens, mind, flood, adults, theater, expert };
+import{hub as e}from"./hub.js?v=4";import{kids as t}from"./kids.js?v=4";import{funhouse as n}from"./funhouse.js?v=4";import{teens as r}from"./teens.js?v=4";import{mind as i}from"./mind.js?v=4";import{goo as a}from"./goo.js?v=4";import{flood as o}from"./flood.js?v=4";import{adults as s}from"./adults.js?v=4";import{theater as c}from"./theater.js?v=4";import{attic as l}from"./attic.js?v=4";import{expert as u}from"./expert.js?v=4";export const ROOMS={hub:e,kids:t,funhouse:n,teens:r,mind:i,goo:a,flood:o,adults:s,theater:c,attic:l,expert:u};

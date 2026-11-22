@@ -1,0 +1,827 @@
+{
+ "B-1": {
+  "file": "B-1.m4a",
+  "text": "Hi! I'm Bolt, your guide. Look at me any time you want a tip!",
+  "dur": 4.3
+ },
+ "B-2": {
+  "file": "B-2.m4a",
+  "text": "Welcome to SeatBreak! Ten rooms, one comfy chair, and a LOT of things to poke.",
+  "dur": 6.1
+ },
+ "B-3": {
+  "file": "B-3.m4a",
+  "text": "I'm a hovering robot drone. I know every room in here. I just won't spoil the fun unless you ask.",
+  "dur": 7.3
+ },
+ "B-4": {
+  "file": "B-4.m4a",
+  "text": "What do you need? Pick one.",
+  "dur": 2.28
+ },
+ "B-5": {
+  "file": "B-5.m4a",
+  "text": "Beep boop!",
+  "dur": 0.71
+ },
+ "B-6": {
+  "file": "B-6.m4a",
+  "text": "Want to move? Lean your body the way you want to go. Sit up straight to stop.",
+  "dur": 6.6
+ },
+ "B-7": {
+  "file": "B-7.m4a",
+  "text": "Or point at the floor and pinch your fingers. You'll glide right there.",
+  "dur": 5.4
+ },
+ "B-8": {
+  "file": "B-8.m4a",
+  "text": "You can even grab the air and pull yourself along. Try it!",
+  "dur": 4.8
+ },
+ "B-9": {
+  "file": "B-9.m4a",
+  "text": "See something interesting? Poke it with your finger.",
+  "dur": 3.8
+ },
+ "B-10": {
+  "file": "B-10.m4a",
+  "text": "Levers, knobs and cords can be grabbed. Pinch, hold on, and pull.",
+  "dur": 6.3
+ },
+ "B-11": {
+  "file": "B-11.m4a",
+  "text": "Hands tired? Just LOOK at a thing for a moment. That works on everything.",
+  "dur": 5.2
+ },
+ "B-12": {
+  "file": "B-12.m4a",
+  "text": "Look down at the glowing ring on your chest. That's your menu.",
+  "dur": 4.1
+ },
+ "B-13": {
+  "file": "B-13.m4a",
+  "text": "Lost? Open your menu and choose Lobby. I'll take you home.",
+  "dur": 3.9
+ },
+ "B-14": {
+  "file": "B-14.m4a",
+  "text": "Feeling dizzy? Sit back, look at something far away, and take a break. The rooms will wait.",
+  "dur": 8.0
+ },
+ "B-15": {
+  "file": "B-15.m4a",
+  "text": "Every building is a different escape room. Look at a door to go inside.",
+  "dur": 4.8
+ },
+ "B-16": {
+  "file": "B-16.m4a",
+  "text": "The signs show how hard each room is, and how many stars you've won.",
+  "dur": 4.8
+ },
+ "B-17": {
+  "file": "B-17.m4a",
+  "text": "New here? Start with the Toy Workshop. It's the friendly one.",
+  "dur": 4.6
+ },
+ "B-18": {
+  "file": "B-18.m4a",
+  "text": "Try the toys by your chair first. They're just for practice. Nothing can go wrong.",
+  "dur": 6.0
+ },
+ "B-19": {
+  "file": "B-19.m4a",
+  "text": "Stuck? No shame in that. Look at me and pick Tip!",
+  "dur": 4.7
+ },
+ "B-20": {
+  "file": "B-20.m4a",
+  "text": "Here's a tip.",
+  "dur": 0.88
+ },
+ "B-21": {
+  "file": "B-21.m4a",
+  "text": "Okay. Here's the answer. Are you ready?",
+  "dur": 3.8
+ },
+ "B-22": {
+  "file": "B-22.m4a",
+  "text": "Look all around. Up high, down low, and behind you.",
+  "dur": 5.1
+ },
+ "B-23": {
+  "file": "B-23.m4a",
+  "text": "Not everything in here is part of the puzzle. Some of it is just for fun.",
+  "dur": 5.4
+ },
+ "B-24": {
+  "file": "B-24.m4a",
+  "text": "Read every sign. The room is always telling you something.",
+  "dur": 4.3
+ },
+ "B-25": {
+  "file": "B-25.m4a",
+  "text": "Try the light switch. Some secrets only show up in the dark.",
+  "dur": 4.2
+ },
+ "B-26": {
+  "file": "B-26.m4a",
+  "text": "If a thing won't budge, something else has to happen first.",
+  "dur": 4.3
+ },
+ "B-27": {
+  "file": "B-27.m4a",
+  "text": "You're closer than you think.",
+  "dur": 1.71
+ },
+ "B-28": {
+  "file": "B-28.m4a",
+  "text": "Hmm. Not quite. Try another way!",
+  "dur": 3.5
+ },
+ "B-29": {
+  "file": "B-29.m4a",
+  "text": "That one is locked. Find what opens it.",
+  "dur": 3.4
+ },
+ "B-30": {
+  "file": "B-30.m4a",
+  "text": "YES! That's it!",
+  "dur": 1.68
+ },
+ "B-31": {
+  "file": "B-31.m4a",
+  "text": "Nice one!",
+  "dur": 1.22
+ },
+ "B-32": {
+  "file": "B-32.m4a",
+  "text": "Ooh, clever.",
+  "dur": 1.6
+ },
+ "B-33": {
+  "file": "B-33.m4a",
+  "text": "You found something!",
+  "dur": 1.68
+ },
+ "B-34": {
+  "file": "B-34.m4a",
+  "text": "One lock down. Keep going!",
+  "dur": 2.41
+ },
+ "B-35": {
+  "file": "B-35.m4a",
+  "text": "Halfway there!",
+  "dur": 1.28
+ },
+ "B-36": {
+  "file": "B-36.m4a",
+  "text": "Last step. You've got this.",
+  "dur": 2.44
+ },
+ "B-37": {
+  "file": "B-37.m4a",
+  "text": "Whoa! A glow-in-the-dark SECRET! You found it!",
+  "dur": 4.4
+ },
+ "B-38": {
+  "file": "B-38.m4a",
+  "text": "That was just for fun. But wasn't it GREAT?",
+  "dur": 3.2
+ },
+ "B-39": {
+  "file": "B-39.m4a",
+  "text": "Do it again! Do it again!",
+  "dur": 2.75
+ },
+ "B-40": {
+  "file": "B-40.m4a",
+  "text": "Squishy!",
+  "dur": 1.59
+ },
+ "B-41": {
+  "file": "B-41.m4a",
+  "text": "SMASH! I love that part.",
+  "dur": 2.41
+ },
+ "B-42": {
+  "file": "B-42.m4a",
+  "text": "Boing!",
+  "dur": 1.19
+ },
+ "B-43": {
+  "file": "B-43.m4a",
+  "text": "Honk honk!",
+  "dur": 2.04
+ },
+ "B-44": {
+  "file": "B-44.m4a",
+  "text": "Ooh, pretty colours.",
+  "dur": 2.96
+ },
+ "B-45": {
+  "file": "B-45.m4a",
+  "text": "Nice beat! You should start a band.",
+  "dur": 2.92
+ },
+ "B-46": {
+  "file": "B-46.m4a",
+  "text": "Careful! Just kidding. Nothing in here can hurt you.",
+  "dur": 3.9
+ },
+ "B-47": {
+  "file": "B-47.m4a",
+  "text": "I did NOT see that coming.",
+  "dur": 1.81
+ },
+ "B-48": {
+  "file": "B-48.m4a",
+  "text": "Bullseye!",
+  "dur": 1.32
+ },
+ "B-49": {
+  "file": "B-49.m4a",
+  "text": "Five minutes left. Stay calm, think it through.",
+  "dur": 4.8
+ },
+ "B-50": {
+  "file": "B-50.m4a",
+  "text": "One minute! Breathe. You can do this.",
+  "dur": 3.4
+ },
+ "B-51": {
+  "file": "B-51.m4a",
+  "text": "Wrong code. That costs you thirty seconds. Slow down and check your clues.",
+  "dur": 6.7
+ },
+ "B-52": {
+  "file": "B-52.m4a",
+  "text": "Music on!",
+  "dur": 1.32
+ },
+ "B-53": {
+  "file": "B-53.m4a",
+  "text": "Music off. Nice and quiet.",
+  "dur": 2.93
+ },
+ "B-54": {
+  "file": "B-54.m4a",
+  "text": "Chair mode. Sit up and look around.",
+  "dur": 3.1
+ },
+ "B-55": {
+  "file": "B-55.m4a",
+  "text": "Recliner mode. Lean back and get comfy.",
+  "dur": 3.5
+ },
+ "B-56": {
+  "file": "B-56.m4a",
+  "text": "Table mode. The whole room is now a tiny model in front of you.",
+  "dur": 5.3
+ },
+ "B-57": {
+  "file": "B-57.m4a",
+  "text": "I could not hear you. Try again, or pick a button.",
+  "dur": 3.7
+ },
+ "B-58": {
+  "file": "B-58.m4a",
+  "text": "I am listening.",
+  "dur": 1.29
+ },
+ "B-59": {
+  "file": "B-59.m4a",
+  "text": "Back to the lobby we go!",
+  "dur": 2.04
+ },
+ "B-60": {
+  "file": "B-60.m4a",
+  "text": "Take a break if you need one. I'll be right here.",
+  "dur": 3.5
+ },
+ "B-61": {
+  "file": "B-61.m4a",
+  "text": "Thanks for playing SeatBreak. Come back soon!",
+  "dur": 3.5
+ },
+ "B-62": {
+  "file": "B-62.m4a",
+  "text": "You escaped them ALL. You are officially a SeatBreak master.",
+  "dur": 5.2
+ },
+ "H-1": {
+  "file": "H-1.m4a",
+  "text": "Welcome to SeatBreak. Ten rooms. One chair. Find your way out of every one.",
+  "dur": 6.3
+ },
+ "H-2": {
+  "file": "H-2.m4a",
+  "text": "The toy door is LOCKED! Find the three missing shapes: a red star, a blue moon and a yellow triangle.",
+  "dur": 8.9
+ },
+ "H-3": {
+  "file": "H-3.m4a",
+  "text": "Step right up! The Fun House is open, and the only way out is to PLAY your way out.",
+  "dur": 7.11
+ },
+ "H-4": {
+  "file": "H-4.m4a",
+  "text": "The observatory has lost power, and the exit is locked by a code. Get the lights back on. Then read the stars.",
+  "dur": 10.1
+ },
+ "H-5": {
+  "file": "H-5.m4a",
+  "text": "Welcome to the gallery where NOTHING is what it seems. Answer with the truth. Not with what your eyes tell you.",
+  "dur": 9.2
+ },
+ "H-6": {
+  "file": "H-6.m4a",
+  "text": "Welcome to the Goo Lab. It is sticky. It is stretchy. And the exit is somewhere under all this slime.",
+  "dur": 10.6
+ },
+ "H-7": {
+  "file": "H-7.m4a",
+  "text": "The test tank is filling. You have air on a timer. Free the raft, and ride the water up to the hatch.",
+  "dur": 10.1
+ },
+ "H-8": {
+  "file": "H-8.m4a",
+  "text": "Locked in after closing time. The founder left his library full of secrets. Find the way out.",
+  "dur": 11.2
+ },
+ "H-9": {
+  "file": "H-9.m4a",
+  "text": "Ladies and gentlemen... the GREAT ESCAPE! Three padlocks. Three ways to open them. Balance. Sound. And light.",
+  "dur": 12.5
+ },
+ "H-10": {
+  "file": "H-10.m4a",
+  "text": "An inventor's attic, left just as it was. Light travels in straight lines. Up here, you will have to bend it.",
+  "dur": 11.8
+ },
+ "H-11": {
+  "file": "H-11.m4a",
+  "text": "Agent. The clock is running. Shut down the security grid. Crack the codeword. Open the vault.",
+  "dur": 9.7
+ },
+ "H-12": {
+  "file": "H-12.m4a",
+  "text": "YOU ESCAPED!",
+  "dur": 1.53
+ },
+ "H-13": {
+  "file": "H-13.m4a",
+  "text": "Three stars! A perfect run!",
+  "dur": 2.86
+ },
+ "H-14": {
+  "file": "H-14.m4a",
+  "text": "A new best time!",
+  "dur": 1.82
+ },
+ "H-15": {
+  "file": "H-15.m4a",
+  "text": "Here is the real science you just used.",
+  "dur": 3.2
+ },
+ "H-16": {
+  "file": "H-16.m4a",
+  "text": "Out of time. The room resets. Try again!",
+  "dur": 4.6
+ },
+ "H-17": {
+  "file": "H-17.m4a",
+  "text": "The tank has drained. Nobody got wet. Try again!",
+  "dur": 5.3
+ },
+ "H-18": {
+  "file": "H-18.m4a",
+  "text": "So close. One more go?",
+  "dur": 3.3
+ },
+ "H-19": {
+  "file": "H-19.m4a",
+  "text": "Unlocked!",
+  "dur": 1.62
+ },
+ "H-20": {
+  "file": "H-20.m4a",
+  "text": "Code accepted.",
+  "dur": 1.55
+ },
+ "H-21": {
+  "file": "H-21.m4a",
+  "text": "Secret found!",
+  "dur": 1.82
+ },
+ "H-22": {
+  "file": "H-22.m4a",
+  "text": "Lights out.",
+  "dur": 3.3
+ },
+ "H-23": {
+  "file": "H-23.m4a",
+  "text": "Lights on.",
+  "dur": 1.38
+ },
+ "H-24": {
+  "file": "H-24.m4a",
+  "text": "SeatBreak!",
+  "dur": 2.48
+ },
+ "K-1": {
+  "file": "K-1.m4a",
+  "text": "Look for a shape that is glowing and spinning. Look at it to pick it up.",
+  "dur": 4.7
+ },
+ "K-2": {
+  "file": "K-2.m4a",
+  "text": "The teddy bear on the toy shelf looks like he is hiding something. Give him a poke!",
+  "dur": 6.1
+ },
+ "K-3": {
+  "file": "K-3.m4a",
+  "text": "Bang the red drum. Then bang it again! Something might pop out.",
+  "dur": 5.9
+ },
+ "K-4": {
+  "file": "K-4.m4a",
+  "text": "Make the toy train go! Watch where it was parked.",
+  "dur": 5.0
+ },
+ "K-5": {
+  "file": "K-5.m4a",
+  "text": "Take your shapes to the big Toy Door. Look at the matching hole for each one.",
+  "dur": 7.6
+ },
+ "K-6": {
+  "file": "K-6.m4a",
+  "text": "Count every yellow rubber duck! Check the toy shelf, the train, the window, and under the table.",
+  "dur": 8.4
+ },
+ "T-1": {
+  "file": "T-1.m4a",
+  "text": "It is too dark to work. Read Professor Vega's note on the desk. The drawer is locked. Three dials on the wall behind the desk open it. Read the plaque above them.",
+  "dur": 15.4
+ },
+ "T-2": {
+  "file": "T-2.m4a",
+  "text": "There is a fuse in the open desk drawer. Take it.",
+  "dur": 3.3
+ },
+ "T-3": {
+  "file": "T-3.m4a",
+  "text": "Put the fuse in the breaker box on the wall.",
+  "dur": 2.83
+ },
+ "T-4": {
+  "file": "T-4.m4a",
+  "text": "The lit chart lists four clues. Use the telescope again and again to learn which planet each clue describes.",
+  "dur": 10.1
+ },
+ "T-5": {
+  "file": "T-5.m4a",
+  "text": "For each clue, find that planet on the solar system model. Count its place from the Sun. Enter the four numbers in the chart's order.",
+  "dur": 10.2
+ },
+ "M-1": {
+  "file": "M-1.m4a",
+  "text": "Illusions make equal things look different. What would a ruler say?",
+  "dur": 4.9
+ },
+ "M-2": {
+  "file": "M-2.m4a",
+  "text": "Your eyes are being tricked. What would a colour checker say?",
+  "dur": 4.2
+ },
+ "M-3": {
+  "file": "M-3.m4a",
+  "text": "Look at the picture to start a twenty second timer. Stare at the dot. Then look at the white panel.",
+  "dur": 6.8
+ },
+ "M-4": {
+  "file": "M-4.m4a",
+  "text": "The ghost you see is the OPPOSITE colour of the shape.",
+  "dur": 3.8
+ },
+ "M-5": {
+  "file": "M-5.m4a",
+  "text": "Four digits found. Now glide to the yellow EYE spot, and look at the floating tiles.",
+  "dur": 6.4
+ },
+ "F-1": {
+  "file": "F-1.m4a",
+  "text": "Read the FLOAT OR SINK poster. The capsule in the glass tube must float. Which jar would make the water itself heavier?",
+  "dur": 9.0
+ },
+ "F-2": {
+  "file": "F-2.m4a",
+  "text": "Take the floating capsule from the top of the glass tube.",
+  "dur": 4.2
+ },
+ "F-3": {
+  "file": "F-3.m4a",
+  "text": "Fit the valve wheel onto the pump at the end of the bench.",
+  "dur": 4.5
+ },
+ "F-4": {
+  "file": "F-4.m4a",
+  "text": "You can only fill, empty and pour. Start by filling the five litre jug and pouring it into the three litre jug. What is left in the big one?",
+  "dur": 11.7
+ },
+ "F-5": {
+  "file": "F-5.m4a",
+  "text": "Read the dive chart. One atmosphere at the surface, plus one more for every ten metres down.",
+  "dur": 8.2
+ },
+ "A-1": {
+  "file": "A-1.m4a",
+  "text": "Read the note on the writing desk, then the brass plaque on the fireplace.",
+  "dur": 4.9
+ },
+ "A-2": {
+  "file": "A-2.m4a",
+  "text": "Eighteen forty-five is a twenty-four hour time. Set the grandfather clock with its hour and minute knobs.",
+  "dur": 8.8
+ },
+ "A-3": {
+  "file": "A-3.m4a",
+  "text": "The grandfather clock opened. Take the brass key from inside its case.",
+  "dur": 5.5
+ },
+ "A-4": {
+  "file": "A-4.m4a",
+  "text": "The brass key fits the locked drawer of the writing desk.",
+  "dur": 4.4
+ },
+ "A-5": {
+  "file": "A-5.m4a",
+  "text": "Take the magnifying lens from the open drawer.",
+  "dur": 3.5
+ },
+ "A-6": {
+  "file": "A-6.m4a",
+  "text": "Look at the portrait above the fireplace while you carry the magnifying lens.",
+  "dur": 4.8
+ },
+ "A-7": {
+  "file": "A-7.m4a",
+  "text": "Find only the RED books on the bookshelf. Read their numbers from left to right, and enter them on the safe.",
+  "dur": 7.8
+ },
+ "A-8": {
+  "file": "A-8.m4a",
+  "text": "Take the ornate key from the open safe. It fits the library doors.",
+  "dur": 5.9
+ },
+ "G-1": {
+  "file": "G-1.m4a",
+  "text": "The Lock of Balance. The six kilo weight hangs at two. Six times two is twelve. Where must a three kilo weight hang to also make twelve?",
+  "dur": 11.6
+ },
+ "G-2": {
+  "file": "G-2.m4a",
+  "text": "The Lock of Sound. Watch the music box. Four bars light up, one by one. Play those same bars in the same order.",
+  "dur": 10.0
+ },
+ "G-3": {
+  "file": "G-3.m4a",
+  "text": "The Lock of Light. Switch the red, green and blue lamps on and off. Red and green make yellow. Try the other pairs!",
+  "dur": 10.9
+ },
+ "G-4": {
+  "file": "G-4.m4a",
+  "text": "You are free! Watch the curtain.",
+  "dur": 2.63
+ },
+ "X-1": {
+  "file": "X-1.m4a",
+  "text": "The laser table. Flip the mirrors to guide the red beam from the emitter to the receiver. The beam must turn three times. The yellow crates block it.",
+  "dur": 11.3
+ },
+ "X-2": {
+  "file": "X-2.m4a",
+  "text": "The amber beacon blinks Morse code. A short flash is a dot. A long flash is a dash.",
+  "dur": 7.4
+ },
+ "X-3": {
+  "file": "X-3.m4a",
+  "text": "Decode the four letters with the chart, and type them at the terminal.",
+  "dur": 4.6
+ },
+ "X-4": {
+  "file": "X-4.m4a",
+  "text": "The terminal gave you a colour order. Each camera monitor shows one number for its colour. Enter the four numbers at the vault, in that order.",
+  "dur": 10.5
+ },
+ "K-7": {
+  "file": "K-7.m4a",
+  "text": "The toy train needs a key. Read the sign by the three cords on the wall. Then pull red, then yellow, then blue.",
+  "dur": 8.5
+ },
+ "K-8": {
+  "file": "K-8.m4a",
+  "text": "The mint door on the wall is open. Take the little train key.",
+  "dur": 4.2
+ },
+ "K-9": {
+  "file": "K-9.m4a",
+  "text": "Look at the toy train with the little key in your hand.",
+  "dur": 3.3
+ },
+ "K-10": {
+  "file": "K-10.m4a",
+  "text": "Find the pink clay on the table, and squish it until it is a star. Read the sign on the wall next to it.",
+  "dur": 7.7
+ },
+ "K-11": {
+  "file": "K-11.m4a",
+  "text": "The prize drawer is open now. Look inside, and take the golden key.",
+  "dur": 5.7
+ },
+ "K-12": {
+  "file": "K-12.m4a",
+  "text": "Take the golden key to the Toy Door, and look at the golden keyhole.",
+  "dur": 4.9
+ },
+ "T-6": {
+  "file": "T-6.m4a",
+  "text": "The lock is open. Open the desk drawer.",
+  "dur": 2.83
+ },
+ "T-7": {
+  "file": "T-7.m4a",
+  "text": "The dome is shut, so the telescope cannot see anything. Turn the dome crank, left of the telescope, until its ring is full.",
+  "dur": 10.1
+ },
+ "T-8": {
+  "file": "T-8.m4a",
+  "text": "A brass star lock covers the exit keypad. Switch on the star laser. Aim it at the mirror, and turn the mirror until the Orion target glows. The beam must go around the tall brass column.",
+  "dur": 16.0
+ },
+ "M-6": {
+  "file": "M-6.m4a",
+  "text": "Four digits found. Next, find the three pull cords, and read the riddle under them. Sky, then sun, then rose.",
+  "dur": 11.3
+ },
+ "M-7": {
+  "file": "M-7.m4a",
+  "text": "Find the easel with the riddle about the green wall. Pick two paint buckets that blend to green, and splash the canvas with each.",
+  "dur": 10.6
+ },
+ "M-8": {
+  "file": "M-8.m4a",
+  "text": "Both riddles are done. Open the Doorway painting, and pull the lever behind it to power the door.",
+  "dur": 8.3
+ },
+ "F-6": {
+  "file": "F-6.m4a",
+  "text": "The pump needs priming. Pull the cord on the porthole blind, on the left wall, to read a riddle. Then set Dial A and Dial B on the right wall.",
+  "dur": 14.5
+ },
+ "F-7": {
+  "file": "F-7.m4a",
+  "text": "The hatch keypad has no power. Open the bench drawer for the float riddle. Then set the five float levers on the wall.",
+  "dur": 10.8
+ },
+ "A-9": {
+  "file": "A-9.m4a",
+  "text": "A clockwork bar also holds the great doors. Read the Servants' Round riddle, and pull the four bell cords in the order it describes.",
+  "dur": 10.7
+ },
+ "A-10": {
+  "file": "A-10.m4a",
+  "text": "Something clicked in the bookshelf. Find the panel disguised as books, at chest height.",
+  "dur": 7.1
+ },
+ "A-11": {
+  "file": "A-11.m4a",
+  "text": "Open the book panel, and take the brass cog inside.",
+  "dur": 4.3
+ },
+ "A-12": {
+  "file": "A-12.m4a",
+  "text": "Fit the brass cog into the gear socket, right of the doors.",
+  "dur": 4.8
+ },
+ "A-13": {
+  "file": "A-13.m4a",
+  "text": "The brass plate says the glare hides what the dark would show. Unscrew the wall lamp's bulb, three twists, and read what appears.",
+  "dur": 11.9
+ },
+ "A-14": {
+  "file": "A-14.m4a",
+  "text": "Read the glowing writing. Set the three gear knobs by counting clicks from the red mark.",
+  "dur": 7.1
+ },
+ "G-5": {
+  "file": "G-5.m4a",
+  "text": "You are chained, but the room has riddles. On the wall to your left, the Riddle of the Cords says: a ripe tomato, a lemon, the sea. Pull those coloured cords in that order.",
+  "dur": 15.2
+ },
+ "G-6": {
+  "file": "G-6.m4a",
+  "text": "The prop trunk on your left has unlocked. Open its top drawer, and take the three kilo weight.",
+  "dur": 7.4
+ },
+ "G-7": {
+  "file": "G-7.m4a",
+  "text": "The lamps by the Lock of Light have no power. The Riddle of the Dimmer talks about a clock. Open the Grand Banner to see its hour. Then set the dimmer dial to that number.",
+  "dur": 14.3
+ },
+ "X-5": {
+  "file": "X-5.m4a",
+  "text": "The terminal has no power. Left of the vault is a breaker bank with a riddle. Think of a traffic light, top to bottom.",
+  "dur": 8.9
+ },
+ "X-6": {
+  "file": "X-6.m4a",
+  "text": "The vault keypad needs an access chip. A window blind hides a riddle for the three dials on the server rack. They unlock its drawer.",
+  "dur": 11.6
+ },
+ "U-1": {
+  "file": "U-1.m4a",
+  "text": "Look at the bell picture on the wall. Pull the matching coloured cords below it, in the same order, left to right.",
+  "dur": 7.8
+ },
+ "U-2": {
+  "file": "U-2.m4a",
+  "text": "I played a beat on the drums. Hit the same drums in the same order. The card on the wall shows it. Press the yellow button to hear it again.",
+  "dur": 9.9
+ },
+ "U-3": {
+  "file": "U-3.m4a",
+  "text": "The pinatas have dropped! Read the riddle plaque below them. Then smash the right one.",
+  "dur": 6.3
+ },
+ "U-4": {
+  "file": "U-4.m4a",
+  "text": "Put the ticket in the Prize Machine. Set the dial to the answer of the juggling riddle. Then press GO.",
+  "dur": 7.9
+ },
+ "U-5": {
+  "file": "U-5.m4a",
+  "text": "Look for the unlocked hatch under the clown sign.",
+  "dur": 3.6
+ },
+ "U-6": {
+  "file": "U-6.m4a",
+  "text": "Clown Dot wants a green nose. Open the hatch. Then splat the sky colour and the sun colour on his sign.",
+  "dur": 10.5
+ },
+ "U-7": {
+  "file": "U-7.m4a",
+  "text": "Clown Dot is happy! Pull the big lever by the exit door.",
+  "dur": 5.1
+ },
+ "O-1": {
+  "file": "O-1.m4a",
+  "text": "The wall of slime hides something. Squish every blob. Then see what is behind the goo.",
+  "dur": 9.4
+ },
+ "L-6": {
+  "file": "L-6.m4a",
+  "text": "The fuse fits the box on the wall. Put it in to power up the attic.",
+  "dur": 5.0
+ },
+ "L-7": {
+  "file": "L-7.m4a",
+  "text": "Switch on the laser, and aim it at Mirror One. Turn each mirror until the beam reaches Target A. Only the shiny face works.",
+  "dur": 11.4
+ },
+ "L-8": {
+  "file": "L-8.m4a",
+  "text": "Target A is locked in. Now reroute. The beam must still hit Mirror One, but Mirrors Two and Three should send it to Target B.",
+  "dur": 11.1
+ },
+ "L-9": {
+  "file": "L-9.m4a",
+  "text": "Set the three dials on the trunk. The sun number from the rug, then the A number, then the B number.",
+  "dur": 8.3
+ },
+ "L-10": {
+  "file": "L-10.m4a",
+  "text": "Open the trunk drawer, and take the crank handle.",
+  "dur": 3.6
+ },
+ "L-11": {
+  "file": "L-11.m4a",
+  "text": "Put the handle on the brass spindle, under the roof hatch.",
+  "dur": 3.9
+ },
+ "L-12": {
+  "file": "L-12.m4a",
+  "text": "Turn the crank three full turns to open the roof hatch.",
+  "dur": 4.9
+ },
+ "Z-1": {
+  "file": "Z-1.m4a",
+  "text": "Think you can escape? Ha ha ha!",
+  "dur": 6.2
+ },
+ "Z-2": {
+  "file": "Z-2.m4a",
+  "text": "Think you can escape? Ha ha ha!",
+  "dur": 8.5
+ }
+}
