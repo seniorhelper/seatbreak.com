@@ -1,6 +1,6 @@
 # SeatBreak
 
-> SeatBreak is a free seated VR escape-room game that runs in the Meta Quest browser with no install, and also plays on a normal screen. It has twelve rooms (eleven open now, one coming soon), is played with bare hands, controllers or gaze, and has no ads, no accounts and no tracking. Made by Zach Wennstedt, madwackd.ai studio.
+> SeatBreak is a free seated VR escape-room game that runs in the Meta Quest browser with no install, and also plays on a normal screen. It has twelve rooms (eleven open now, one coming soon), is played with bare hands, controllers or gaze, and has no ads, no accounts and no tracking. Made by Zachary Tye Wennstedt, Madwackd.ai Studios.
 
 ## Play and learn
 
@@ -36,6 +36,6 @@
 
 ## Contact
 
-- Maker: Zach Wennstedt, madwackd.ai studio
+- Maker: Zachary Tye Wennstedt, Madwackd.ai Studios
 - Email: zach@eyetoad.com
 - Phone: 1-800-481-8638
