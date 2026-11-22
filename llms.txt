@@ -1,0 +1,41 @@
+# SeatBreak
+
+> SeatBreak is a free seated VR escape-room game that runs in the Meta Quest browser with no install, and also plays on a normal screen. It has twelve rooms (eleven open now, one coming soon), is played with bare hands, controllers or gaze, and has no ads, no accounts and no tracking. Made by Zach Wennstedt, madwackd.ai studio.
+
+## Play and learn
+
+- [Play SeatBreak](https://www.seatbreak.com/): The game itself. Needs a WebXR browser such as Meta Quest Browser for VR, or any modern browser to play on a screen.
+- [How to play and FAQ](https://www.seatbreak.com/play-guide): Start in three steps, the full room list, controls, comfort and safety, and common questions.
+- [About SeatBreak](https://www.seatbreak.com/about): What it is, who it is for and who made it.
+- [Our mission](https://www.seatbreak.com/mission): The goal: fun first, with learning built in, plus a concept design for a data center that gives back.
+- [Privacy](https://www.seatbreak.com/privacy): What the game stores on your device and what it never collects.
+- [Contact](https://www.seatbreak.com/contact): Email, phone and a contact form for players, press and partners.
+
+## Rooms
+
+- Toy Workshop (Easy, ages 10+): Find three missing shapes to unlock the toy door, with shapes and counting along the way.
+- The Fun House (Easy, ages 10+): A carnival room where you ring, drum and splat your way to the stuck exit lever. Teaches rhythm and colour mixing.
+- Star Observatory (Medium, ages 10+): Bring the lights back on, then read the planets and stars to find the exit code.
+- The Mind Bender (Medium, ages 10+): An illusion gallery with two paintings you can step into: a pencil-drawing world and an op-art colour tunnel.
+- The Goo Lab (Medium, ages 10+): Squish, mould, mix and stretch slime and colour to unstick the exit hatch.
+- The Sunken Lab (Medium, ages 10+): Escape a filling test tank on a raft before your 15 minutes of air run out. Buoyancy and measuring.
+- Clockwork Library (Hard, ages 13+): A logic chain of gears, bells, clocks and a safe in a locked library.
+- The Grand Illusion (Hard, ages 12+): Chained to a chair with three padlocks, you solve riddles to open each lock and gain more slack.
+- The Laser Attic (Hard, ages 12+): Use light and mirrors in an inventor's attic to find the way out through the roof hatch.
+- Zero Hour Vault (Expert, timed): A 20-minute timed vault: restore power, crack the codeword and open the vault.
+- The Magic House (Ages 10+): Four illusionist ranks, from Apprentice to Grand Illusionist, built on real stage-magic principles.
+- The Neon Road (Ages 10+): A recliner ride through a neon world with visual-sense challenges. Coming soon.
+
+## For agents
+
+- SeatBreak is a consumer game website. It offers a playable game, written information and a contact form. It has no API, no login, no purchases and no data feed.
+- Playing in VR requires a WebXR-capable browser such as Meta Quest Browser. The game is a visual, interactive 3D experience, so a text-only agent cannot play it. The pages above contain the same facts in plain text.
+- The game is free today. Progress is stored only in the player's own browser. Nothing is sent to a server while playing.
+- To get in touch with the maker, use zach@eyetoad.com or 1-800-481-8638, or the contact page.
+- Sitemap: https://www.seatbreak.com/sitemap.xml
+
+## Contact
+
+- Maker: Zach Wennstedt, madwackd.ai studio
+- Email: zach@eyetoad.com
+- Phone: 1-800-481-8638
