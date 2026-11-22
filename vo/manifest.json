@@ -312,7 +312,7 @@
  "H-1": {
   "file": "H-1.m4a",
   "text": "Welcome to SeatBreak. Ten rooms. One chair. Find your way out of every one.",
-  "dur": 6.3
+  "dur": 6.7
  },
  "H-2": {
   "file": "H-2.m4a",
@@ -816,12 +816,12 @@
  },
  "Z-1": {
   "file": "Z-1.m4a",
-  "text": "Think you can escape? Ha ha ha!",
-  "dur": 6.2
+  "text": "You think you can escape? Ha ha ha!",
+  "dur": 6.7
  },
  "Z-2": {
   "file": "Z-2.m4a",
-  "text": "Think you can escape? Ha ha ha!",
-  "dur": 8.5
+  "text": "You think you can escape? Ha ha ha!",
+  "dur": 8.9
  }
 }
