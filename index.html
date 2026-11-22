@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SeatBreak: Seated VR Escape Rooms for Meta Quest</title>
+<meta name="description" content="SeatBreak: seven seated, hands-free VR escape rooms that run right in your Meta Quest browser. Easy for kids up to a timed Expert vault, with chair, recliner and tabletop modes. No install.">
+<link rel="canonical" href="https://www.seatbreak.com/">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta property="og:site_name" content="SeatBreak"><meta property="og:type" content="website"><meta property="og:title" content="SeatBreak: Seated VR Escape Rooms"><meta property="og:description" content="Seven seated, hands-free VR escape rooms for Meta Quest. No install. Play from your chair."><meta property="og:url" content="https://www.seatbreak.com/"><meta property="og:image" content="https://www.seatbreak.com/social.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#070818">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<style>
+  :root { --cyan:#5ef2ff; --pink:#ff7ab8; --gold:#ffd54a; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; background:#05060c; color:#fff; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; overflow:hidden; }
+  #app, #app canvas { position:fixed; inset:0; width:100%; height:100%; display:block; touch-action:none; }
+  #overlay { position:fixed; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:24px; text-align:center;
+    background: radial-gradient(ellipse at 50% 35%, rgba(40,30,90,.55), rgba(4,5,12,.88) 70%); backdrop-filter: blur(3px); transition: opacity .4s; z-index:10; }
+  #overlay.hidden { opacity:0; pointer-events:none; }
+  .kicker { font-weight:800; letter-spacing:.18em; font-size:13px; color:var(--cyan); text-transform:uppercase; margin-bottom:10px; }
+  h1 { margin:0; font-size: clamp(34px, 7vw, 68px); font-weight:900; line-height:1.02; letter-spacing:-.02em;
+    background: linear-gradient(90deg, #e9fbff, var(--cyan) 45%, var(--pink)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .line { margin:14px 0 26px; font-size: clamp(16px, 2.4vw, 21px); color:#cfdcff; font-weight:500; }
+  .ctas { display:flex; gap:14px; flex-wrap:wrap; justify-content:center; }
+  button { font: inherit; cursor:pointer; border:none; }
+  .btn { padding:16px 30px; font-size:19px; font-weight:800; border-radius:10px; min-width:210px; }
+  .btn-vr { background: linear-gradient(135deg, var(--cyan), #7d8bff); color:#071022; box-shadow: 0 0 30px rgba(94,242,255,.45); }
+  .btn-vr:disabled { background:#2a3150; color:#9aa6c8; box-shadow:none; cursor:default; }
+  .btn-play { background: transparent; color:#fff; border:2px solid rgba(255,255,255,.55); }
+  .modes { display:flex; gap:10px; margin:-8px 0 20px; flex-wrap:wrap; justify-content:center; }
+  .chip { padding:10px 16px; font-size:15px; font-weight:800; border-radius:8px; background:transparent; color:#cfdcff; border:2px solid #4a5680; }
+  .chip.on { color:#071022; background:#7dffb0; border-color:#7dffb0; }
+  .scan { margin-top:16px; font-size:14px; color:#cfdcff; display:flex; gap:8px; align-items:center; cursor:pointer; }
+  .scan input { width:18px; height:18px; }
+  .tiers { display:flex; gap:10px; margin-top:26px; flex-wrap:wrap; justify-content:center; }
+  .tier { font-size:13px; font-weight:800; padding:7px 12px; border-radius:6px; border:2px solid; letter-spacing:.06em; }
+  .note { margin-top:18px; font-size:13.5px; color:#9fb0d8; max-width:520px; }
+  #help { position:fixed; left:12px; bottom:12px; z-index:5; font-size:13px; color:#cfe1ff; background:rgba(8,12,24,.7); padding:8px 12px; border-radius:8px; display:none; }
+  body.playing #help { display:block; }
+  body.in-xr #help { display:none; }
+  @media (pointer: coarse), (max-width: 640px) { #help { top: 58px; bottom: auto; font-size:11px; } }
+  #ask { position:fixed; top:12px; right:12px; z-index:6; display:none; gap:6px; }
+  body.playing #ask { display:flex; } body.in-xr #ask { display:none; }
+  #ask input { width:230px; max-width:52vw; padding:9px 11px; border-radius:8px; border:2px solid #5ef2ff; background:rgba(8,12,24,.85); color:#fff; font:inherit; font-size:14px; }
+  #ask button { padding:9px 12px; border-radius:8px; background:#5ef2ff; color:#071022; font-weight:800; }
+  #vr-corner { position:fixed; right:12px; bottom:12px; z-index:6; padding:10px 16px; font-weight:800; border-radius:8px; background:var(--cyan); color:#071022; display:none; }
+  body.playing.xr-ok #vr-corner { display:block; }
+  #legal { margin-top:26px; font-size:14px; color:#9fb0d8; line-height:1.9; }
+  #legal a { color:#cfe1ff; font-weight:700; padding:6px 4px; }
+  #legal a:focus-visible, button:focus-visible, .chip:focus-visible, input:focus-visible { outline:3px solid #ffd36b; outline-offset:3px; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="overlay">
+  <div class="kicker">Seated · Hands-free · No install</div>
+  <h1>SeatBreak</h1>
+  <div class="line">Seven escape rooms you solve from your chair, just by looking.</div>
+  <div class="modes" role="group" aria-label="Play mode">
+    <button class="chip" data-mode="chair">Chair</button>
+    <button class="chip" data-mode="recliner">Recliner</button>
+    <button class="chip" data-mode="table">Table (mini room)</button>
+  </div>
+  <div class="ctas">
+    <button id="btn-vr" class="btn btn-vr" disabled>Open on Quest to play in VR</button>
+    <button id="btn-play" class="btn btn-play">Play on this screen</button>
+  </div>
+  <label class="scan"><input type="checkbox" id="opt-scan"> Room Scan: outline my real walls and furniture (Quest asks permission)</label>
+  <div class="tiers">
+    <span class="tier" style="color:#ff7ab8">EASY · Kids</span>
+    <span class="tier" style="color:#5ec8ff">MEDIUM · Teens</span>
+    <span class="tier" style="color:#ff8a3d">HARD · Adults</span>
+    <span class="tier" style="color:#ff2050">EXPERT · Timed vault</span>
+  </div>
+  <div class="note">In VR: look at anything for a moment to use it, or point and pinch / pull the trigger. On a screen: drag to look, click to use, Q / E to turn.</div>
+  <nav id="legal" aria-label="About SeatBreak"><a href="mission.html">Our mission</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a><div>© 2026 Zach Wennstedt · madwackd.ai studio</div></nav>
+</div>
+<div id="help">Drag to look · Click to use · Q / E turn · H hint · M more · T ask Bolt</div>
+<script>if (matchMedia('(pointer: coarse)').matches) document.getElementById('help').textContent = 'Drag to look · Tap things to use them';</script>
+<button id="vr-corner" hidden>Enter VR</button>
+<div id="ask"><input id="ask-in" maxlength="140" autocomplete="off" placeholder="Ask Bolt anything (press T)"><button id="ask-go">Ask</button><button id="ask-mic" hidden aria-label="Speak to Bolt">🎤</button></div>
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+</script>
+<script type="module" src="js/engine.js?v=3.1"></script>
+</body>
+</html>
